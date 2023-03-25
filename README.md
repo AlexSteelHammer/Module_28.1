@@ -22,7 +22,11 @@ Rostelecom website testing, testing object https://b2c.passport.rt.ru/ page.
 python -m pytest -v --driver Chrome --driver-path chromedriver.exe tests/test.py
 
 Для правильной работы тестов необходимо установить библиотеки в Python 3:
+
 pytest
+
 pytest-selenium
+
 selenium
+
 urllib3
